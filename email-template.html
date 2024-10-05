@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{subject}</title>
+    <style>
+        /* Stili personalizzati per l'email */
+        body { font-family: Arial, sans-serif; color: #333; }
+        .header { background-color: #0073aa; color: #fff; padding: 20px; text-align: center; }
+        .content { padding: 20px; }
+        .footer { background-color: #f5f5f5; color: #777; padding: 10px; text-align: center; }
+        a { color: #0073aa; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Gestione Dipendenti</h1>
+    </div>
+    <div class="content">
+        <p>Ciao {name},</p>
+        <p>{message}</p>
+    </div>
+    <div class="footer">
+        <p>Questo è un messaggio generato automaticamente. Per favore, non rispondere a questa email.</p>
+    </div>
+</body>
+</html>

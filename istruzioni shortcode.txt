@@ -1,0 +1,19 @@
+Istruzioni per l'Utilizzo degli Shortcode nel Frontend
+a. Creare le Pagine nel Frontend
+Richiesta di Ferie:
+
+Titolo della pagina: Richiesta di Ferie
+Contenuto: [emp_leave_request_form]
+Le mie Richieste:
+
+Titolo della pagina: Le mie Richieste
+Contenuto: [emp_user_leave_requests]
+Documenti Riservati:
+
+Titolo della pagina: Documenti Riservati
+Contenuto: [emp_assigned_documents]
+b. Aggiungere le Pagine al Menu di Navigazione
+Vai su Aspetto > Menu.
+Seleziona il menu di navigazione principale.
+Aggiungi le nuove pagine create al menu.
+Salva il menu.
